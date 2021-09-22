@@ -17,6 +17,8 @@ A class count policy with a minimum count of 1 is the same as having no complexi
 
 These password lists were extracted from the [SecLists Top 1000000 Common Passwords](https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials) list.
 
+The passwords in these lists are ordered by descending commonality.
+
 | Filename                                                     | Policy Type        | Minimum Characters | Minimum Character Classes | Password Count |
 | ------------------------------------------------------------ | ------------------ | ------------------ | ------------------------- | -------------- |
 | [from-top-1M/pwlist_an_len10.txt](from-top-1M/pwlist_an_len10.txt) | Alphanumeric       | 10                 | -                         | 68717          |
@@ -97,13 +99,13 @@ These password lists were extracted from the [SecLists Top 1000000 Common Passwo
 | [from-top-1M/pwlist_cc_len20_cls3.txt](from-top-1M/pwlist_cc_len20_cls3.txt) | Class Count        | 20                 | 3                         | 252            |
 | [from-top-1M/pwlist_cc_len20_cls4.txt](from-top-1M/pwlist_cc_len20_cls4.txt) | Class Count        | 20                 | 4                         | 23             |
 
-
-
 ## From the Rockyou list
 
 These were extracted from the well-known "rockyou.txt" password list.
 
 Some preprocessing was performed to remove passwords that are unlikely to be re-used elsewhere, e.g. passwords that were just rockyou URLs.
+
+The passwords in these lists are unordered.
 
 | Filename                                                     | Policy Type        | Minimum Characters | Minimum Character Classes | Password Count |
 | ------------------------------------------------------------ | ------------------ | ------------------ | ------------------------- | -------------- |
@@ -188,6 +190,8 @@ Some preprocessing was performed to remove passwords that are unlikely to be re-
 ## From the NCSC top 100k
 
 These were extracted from the [NCSC top 100k password list](https://www.ncsc.gov.uk/news/most-hacked-passwords-revealed-as-uk-cyber-survey-exposes-gaps-in-online-security), published in 2019.
+
+The passwords in these lists are ordered by descending commonality.
 
 | Filename                                                     | Policy Type        | Minimum Characters | Minimum Character Classes | Password Count |
 | ------------------------------------------------------------ | ------------------ | ------------------ | ------------------------- | -------------- |
